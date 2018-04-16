@@ -44,6 +44,14 @@ form{
 	border: 0px;
 	border-radius: 5px;
 }
+#blocoC{
+	margin:auto;
+	background-color: black;
+	width: 95%;
+	height: 600px;
+	border: 10px double;
+	border-color: white;
+}
 #logo{
 	float: left;
 }
