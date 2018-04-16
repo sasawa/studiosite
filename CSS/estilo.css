@@ -1,14 +1,14 @@
-ul{
+.navegadorUL{
 	list-style-type: none;
 	margin:0 0 10px 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: black;
 }
-li{
+.itemNav{
 	float: right;
 }
-li a{
+a{
 	text-align: center;
 	display: block;
 	color:white;
@@ -17,12 +17,13 @@ li a{
 	margin: 0;
 	border-radius: 3px;
 }
-li a:hover{
+a:hover{
 	background-color: gray;
 }
-form{
+.contato{
 	margin: 5px;
 	padding: 10px;
+	border: 2px dotted white;
 }
 #blocoA{
 	margin-left: 10px;
@@ -31,18 +32,19 @@ form{
 	min-width: 20%;
 	max-width: 500px;
 	height: 600px;
-	float; left:
-	border: 0px;
+	border: 10px double;
+	border-color: white;
 }
 #blocoB{
 	margin-left: 10px;
-	background-color: gray;
-	max-width: 600px;
+	margin-right: 10px;
+	background-color: black;
 	min-width: 20%;
-	height: 700px;
-	float; left:
-	border: 0px;
-	border-radius: 5px;
+	max-width: 500px;
+	height: 600px;
+	border: 10px double;
+	border-color: white;
+	color: white;
 }
 #blocoC{
 	margin:auto;
